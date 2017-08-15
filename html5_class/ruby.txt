@@ -1,0 +1,1 @@
+&lt;ruby&gt; 用於中文字等等的註釋（中文注音）。用法:&lt;ruby&gt;你 &lt;rt&gt;&lt;rp&gt;(&lt;/rp&gt;ㄋㄧˇ&lt;rp&gt;)&lt;/rp&gt;&lt;/rt&gt;&lt;/ruby&gt;<br><br><a href="#editor" class="sendbutton" onClick="send_to_ed( '<ruby>你<rt><rp>(</rp>ㄋㄧˇ<rp>)</rp></rt></ruby>')">增加到練習器</a>	

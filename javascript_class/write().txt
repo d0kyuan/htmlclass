@@ -1,0 +1,2 @@
+﻿使用document.write顯示結果<a href="#" class="sendbutton" onClick="document.getElementById('word').value += '<p><script>document.write(5/6);</script></p>'">增加到練習器</a>
+

@@ -1,0 +1,176 @@
+#msg_area{
+    width: 30%;
+    height: 30%;
+    display: block;
+    background-color: rgba(179, 179, 179,0.6);
+    box-shadow:4px 4px 3px rgba(40%,40%,40%,0.5);
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 5%;
+}
+
+#sure_btn_area{
+    display: block;
+    text-align: center;
+    width: 10%;
+    height: 30%;
+    overflow: hidden;
+    margin: 0 auto;
+     margin-top: 3%;
+}
+
+textarea{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255,0.7);
+    max-height: 100px;
+    height: 50px;
+    font-size: 25px;
+}
+
+
+
+.animate
+{
+    margin: 0 aut0;
+    display: table;
+    cursor: pointer;
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 12px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+
+.red
+{
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+
+
+.msg_list{
+      position: relative;
+    background: -webkit-linear-gradient(#292929, #252525);
+    background: -o-linear-gradient(#292929, #252525);
+    background: linear-gradient(#292929, #252525);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#252525');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#252525')";
+    border-left: 3px solid rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #181818;
+    border-top: 2px solid #303030;
+    min-width: 160px;
+    color: #808080;
+    display: block;
+    font-family: 'Lucida Console';
+    font-size: 18px;
+    line-height: 54px;
+    padding: 0 25px;
+    text-decoration: none;
+    color:white;
+    width:60%;
+    margin:0 auto;
+    padding:1em;
+    margin-bottom:1%;
+    margin-top:1px;
+    overflow:hidden;
+    box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+}
+.msg_area{
+    width: 100%;
+    overflow: hidden;
+    
+    border-bottom: 3px solid white;
+
+}
+.msg_area span{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.msg_area P{
+    display: block;
+}
+.member_name{
+    float:left;
+	overflow:hidden;
+    width: 20%;
+}
+.msg{
+    float:left;
+	overflow:hidden;
+    width: 70%;
+}
+#nice_btn{
+   margin-left:0;  
+}
+.msg_rep{
+    color:white;
+    border-bottom: 1px white solid;
+    padding-left: 4%;
+    width: 96%;
+    overflow: hidden;
+}
+.rep_done_btn{
+     cursor: default;
+    display: table;
+    margin-left: 3%;
+    float:left;
+	overflow:hidden;
+}
+.rep_btn{
+    cursor: pointer;
+    display: table;
+    margin-left: 3%;
+    float:left;
+	overflow:hidden;
+}
+.rep_btn:hover{
+color:red;
+}
+.feed_back{
+    overflow: hidden;
+    margin-top: 1%;
+    width: 100%;
+}
+.msg_btn{
+    overflow:hidden; 
+    position: relative;
+    padding: 0% 3%;
+    margin: 0px 1% 1% 0px;
+    float: right;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 12px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+#rep_msg_input_area{
+    max-width: 400px;
+    width: 85%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255,0.7);
+    max-height: 30px;
+    height: 1%;
+    font-size: 15px;
+}

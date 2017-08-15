@@ -1,0 +1,1 @@
+&lt;big&gt; 標籤呈現大號字體效果。<br><br>使用 &lt;big&gt; 標籤可以很容易地放大字體。<br><br>瀏覽器顯示包含在 &lt;big&gt; 標籤和其相應的 &lt;/big&gt; 標籤之間的文字時，其字體比周圍的文字要大一號。但是，如果文字已經是最大號字體，這個 &lt;big&gt; 標籤將不起任何作用。<br><br>更妙的是，可以嵌套 &lt;big&gt; 標籤來放大文本。每一個 &lt;big&gt; 標籤都可以使字體大一號，直到上限 7 號文本，正如字體模型所定義的那樣。<br><br><a href="#editor" class="sendbutton" onClick="send_to_ed('<p>一般的字</p><big>很大的字</big>')">增加到練習器</a>	

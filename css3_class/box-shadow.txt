@@ -1,0 +1,5 @@
+可使元素產生陰影，標準語法為：<br/><br/>
+box-shadow: x y blur spread color inset;<br>前面 4 個都是尺寸值 (length，不接受 %) ，依序表示水平位移距離 (x) 、<br/>
+垂直位移距離 (y) 、模糊強度 (blur) 、擴散強度 (spread) ，不可被其它的值插進其間。<br>
+語法box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+<br><br><a href="#" class="sendbutton" onClick="send_to_ed('<style>.container{margin-top:5px;margin-left:10%;margin-right:auto;margin-bottom:20px;border:1px black solid;width:100px;box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5)}</style><div class=\'container\'>這是陰影的範例。</div>')">增加到練習器</a>

@@ -1,0 +1,2 @@
+padding及設定四個邊的留白來做逐一的設定(padding-top/buttom/right/left)。<br>
+<a href="#" class="sendbutton" onClick="send_to_ed( '<style>.container { padding-top:15px; padding-left:10px; padding-right:30px; padding-bottom:40px; border: 1px black solid; }</style><div class=\'container\'> 這是留白的例子。這裡對了上、下、左、右的留白空間都有設定。 </div>')">增加到練習器</a>	

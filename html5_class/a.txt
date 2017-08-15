@@ -1,0 +1,1 @@
+&lt;a&gt;&lt;/a&gt;是用來放置超連結的標籤,用法如下:<br><br>&lt;a href="https://www.google.com.tw"&gt;Hello world!&lt;&lt;/a&gt;<br><br><a href="#editor" class="sendbutton" onClick="send_to_ed('\<a href=\'https://www.google.com.tw/\'>hello world!\</a>')">增加到練習器</a>	

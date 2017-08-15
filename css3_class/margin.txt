@@ -1,0 +1,1 @@
+margin是用來設定各個元素之間的距離，可以對四個邊逐一設定(margin-top/buttom/right/left)<br><br><a href="#" class="sendbutton" onClick="send_to_ed( '<style>.container{margin-top:5px;margin-left:10%;margin-right:auto;margin-bottom:20px;border:1px black solid;width:100px;}</style><div class=\'container\'>這是邊界的例子。</div>')">增加到練習器</a>

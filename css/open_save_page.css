@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#left_bar{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    background-color:rgba(77, 255, 77,0.7);
+    text-align: right;
+    padding-top: 10%;
+}
+.dm_word{
+    display:table;
+    margin:0 auto;
+    margin-top: 20%;
+    cursor:default;
+}
+.open_page_btn{
+    display: table;
+    margin:0 auto;
+    cursor: pointer;
+    margin-top: 20%;
+    color:black;
+}
+.open_page_btn:hover{
+    color:red;
+    transition: color 0.7s ease;
+
+}
+#right_bar {
+	 width: 85%;
+    position: absolute;
+    right: 0px;
+}

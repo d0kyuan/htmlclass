@@ -1,0 +1,51 @@
+<div id="login_block">
+                  <div class="group">      
+				  <input id="memeber_name" name="memeber_name" onkeyup="value=value.replace(/[^\w\.\/]/ig,\'\')" type="text" required>
+				  <span class="highlight"></span>
+				  <span class="bar"></span>
+				  <label>暱稱</label>
+				</div>
+				<div class="group">      
+				  <input id="account" name="account" onfocus="live_account_check_click()" onblur="live_account_check()"onkeyup="value=value.replace(/[^\w\.\/]/ig,\'\')" type="text" required>
+				  <span class="highlight"></span>
+				  <span class="bar"></span>
+				  <label>帳號</label>
+				</div>
+				<div class="group">      
+				  <input id="password" name="password" onkeyup="value=value.replace(/[^\w\.\/]/ig,\'\')"type="password" required>
+				  <span class="highlight"></span>
+				  <span class="bar"></span>
+				  <label>密碼</label>
+				</div>
+                <div class="group">      
+				  <input id="passwordagain" name="passwordagain" onblur="live_password_check()" onfocus="live_password_click()" onkeyup="value=value.replace(/[^\w\.\/]/ig,\'\')"type="password" required>
+				  <span class="highlight"></span>
+				  <span class="bar"></span>
+				  <label>再輸入一次密碼</label>
+				</div>
+                <div class="group">      
+				  <input id="qus" name="qus" type="text" required>
+				  <span class="highlight"></span>
+				  <span class="bar"></span>
+				  <label>安全提問</label>
+				</div>
+                <div class="group">      
+				  <input id="ans" name="ans" type="text" required>
+				  <span class="highlight"></span>
+				  <span class="bar"></span>
+				  <label>安全答案</label>
+				</div>
+				<div style="position:relative;margin-bottom:45px;">
+                    <label style="top:0px;left:0px" >公開自製網頁</label>
+                    <input id="share" style="top:-2px;"type="checkbox" />
+				</div>
+				<div id="login_btngroup">
+					<a href="#" id="login" class="addbutton"  onClick="btn_sighup_click()">註冊</a>
+					<a href="#" id="goback" class="addbutton"  onClick="goback_btn_click()">返回</a> 
+				</div>
+			
+</div>
+
+
+
+

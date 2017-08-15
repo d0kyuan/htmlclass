@@ -1,0 +1,25 @@
+@charset "utf-8";
+#tips_btn_area{
+    width: 10%;
+    position: absolute;
+    bottom: 2%;
+    right: 0px;
+    overflow: hidden;
+    color: aliceblue;
+}
+.tips_btn{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+#tips_pic{
+ overflow: hidden;
+}
+#change_place{
+    overflow: hidden;
+}
+#tips_pic_changer{
+    position: absolute;
+}

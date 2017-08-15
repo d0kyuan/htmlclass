@@ -1,0 +1,5 @@
+&lt;abbr&gt; 標籤指示簡稱或縮寫，比如 "WWW"。<br><br>通過對縮寫進行標記，您能夠為瀏覽器、拼寫檢查和搜索引擎提供有用的信息。<br><br>&lt;abbr&gt; 標籤最初是在 HTML 4.0 中引入的，表示它所包含的文本是一個更長的單詞或短語的縮寫形式。<br><br>用法:&lt;abbr title=""&gt;&lt;/abbr&gt; <br><br><a  href="#editor" class="sendbutton" onClick="send_to_ed( '\<abbr title=\'HyperText Markup Language\'>HTML</abbr>又譯超文本標記語言.\</p>')">增加到練習器</a>	
+
+
+
+ 

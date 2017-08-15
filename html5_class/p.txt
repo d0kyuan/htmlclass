@@ -1,0 +1,1 @@
+&lt;p&gt;&lt;/p&gt;是用來放置文字說明的標籤,用法如下:<br><br>&lt;p&gt;Hello world!&lt;/p&gt;<br><br><a href="#editor" class="sendbutton" onClick="send_to_ed( '<p>hello world!</p>')">增加到練習器</a>	

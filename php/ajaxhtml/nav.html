@@ -1,0 +1,32 @@
+<nav id="nav">
+		<ul>
+			<li ><a href="./"   >首頁</a></li>
+			<li id="html5li" ><a href="#" id="html5" onClick="callclass('html5')">html5</a></li>
+			<li ><a href="#" id="css3"   onClick="callclass('css3')" >css3</a></li>
+			<!--<li ><a href="#" id="javascript"  onClick="callclass('javascript')">javascript</a></li>-->
+			<li ><a href="#" id="search_page"  onClick="search_page()">搜尋</a></li>
+		</ul>
+		<div id="sigh_login">
+			<p class="sigh_login_btn" onClick="login()">登入</p>
+			<p class="sigh_login_btn" onClick="sighup()">註冊</p>
+		</div>
+		<div id="username">
+			<p id="hellouser" class="username_btn"></p>
+			<a href="#" class="username_btn" onClick="logout()">登出</a>
+			<a href="#" class="username_btn" onClick="control_page()">管理</a>
+			<a href="#" class="username_btn" onClick="showpage()">個人網頁</a>
+		</div>
+	</nav>
+	<nav id="nav_mob">
+		<ul>
+			<li ><a href="index.html"  >首頁</a></li>
+			<li id="html5li" ><a href="#" id="html5" onClick="callclass('html5')">html5</a></li>
+			<li ><a href="#" >選單</a>
+				<ul>
+					<li onClick="callclass('html5')"><a href="#" id="html5" onClick="callclass('html5')">html5</a></li>
+					<li onClick="callclass('css3')"><a href="#" id="css3"  onClick="callclass('css3')" >css3</a></li>
+					<li onClick="callclass('javascript')"><a href="#" id="javascript" onClick="callclass('javascript')">javascript</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>

@@ -1,0 +1,19 @@
+通過 @keyframes 規則，您能夠創建動畫。<br/>
+創建動畫的原理是，將一套 CSS 樣式逐漸變化為另一套樣式。<br/>
+在動畫過程中，您能夠多次改變這套 CSS 樣式。<br/>
+以百分比來規定改變發生的時間，或者通過關鍵詞 "from" 和 "to"，等價於 0% 和 100%。<br/>
+0% 是動畫的開始時間，100% 動畫的結束時間。<br/>
+為了獲得最佳的瀏覽器支持，您應該始終定義 0% 和 100% 選擇器。<br/>
+註釋：請使用動畫屬性來控制動畫的外觀，同時將動畫與選擇器綁定。<br/>
+<br/>
+範例 :
+<br/>
+@keyframes mymove
+{<br/>
+from {top:0px;}<br/>
+to {top:200px;}<br/>
+}<br/>
+
+
+<a href="#" class="sendbutton" onClick="send_to_ed('<div id=\'moving_box\'></div><style>#moving_box{width:100px;height:100px;border-radius:1000px;background:black;position:relative;animation:mymove 5s infinite;}@keyframes mymove{from {top:0px;}to {top:200px;}}')">增加到練習器</a>
+

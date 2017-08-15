@@ -1,0 +1,1 @@
+&lt;progress&gt; 標籤標示任務的進度。<br><br>用法:&lt;progress value='50'max='100'&gt; <br><br><a href="#editor" class="sendbutton" onClick="send_to_ed( '<progress value=\'10\' max=\'100\'>')">增加到練習器</a>	

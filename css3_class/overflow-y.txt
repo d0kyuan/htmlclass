@@ -1,0 +1,13 @@
+overflow-y 如果溢出元素內容區域的話是否對內容的上/下邊緣進行裁剪。<br>
+&nbsp;&nbsp;&nbsp;visible :<br>
+<a href="#" class="sendbutton" onClick="send_to_ed( '<style>#visible_text{width:110px;height:110px;border:thin solid black;overflow-y:visible;}</style><div id=\'visible_text\'><p>這是visible測試~~~~這是visible測試~~~~這是visible測試~~~~這是visible測試~~~~這是visible測試~~~~這是visible測試~~~~這是visible測試~~~~這是visible測試~~~~</p></div>')">增加到練習器</a><br>
+&nbsp;&nbsp;&nbsp;hidden :<br>
+<a href="#" class="sendbutton" onClick="send_to_ed( '<style>#hidden_text{width:110px;height:110px;border:thin solid black;overflow-y:hidden;}</style><div id=\'hidden_text\'><p>這是hidden測試~~~~這是hidden測試~~~~這是hidden測試~~~~這是hidden測試~~~~這是hidden測試~~~~這是hidden測試~~~~這是hidden測試~~~~這是hidden測試~~~~</p></div>')">增加到練習器</a><br>
+&nbsp;&nbsp;&nbsp;scroll :<br>
+<a href="#" class="sendbutton" onClick="send_to_ed('<style>#scroll_text{width:110px;height:110px;border:thin solid black;overflow-y:scroll;}</style><div id=\'scroll_text\'><p>這是scroll測試~~~~這是scroll測試~~~~這是scroll測試~~~~這是scroll測試~~~~這是scroll測試~~~~這是scroll測試~~~~這是scroll測試~~~~這是scroll測試~~~~</p></div>')">增加到練習器</a><br>
+&nbsp;&nbsp;&nbsp;auto :<br>
+<a href="#" class="sendbutton" onClick="send_to_ed('<style>#auto_text{width:110px;height:110px;border:thin solid black;overflow-y:auto;}</style><div id=\'auto_text\'><p>這是auto測試~~~~這是auto測試~~~~這是auto測試~~~~這是auto測試~~~~這是auto測試~~~~這是auto測試~~~~這是auto測試~~~~這是auto測試~~~~</p></div>')">增加到練習器</a><br>
+&nbsp;&nbsp;&nbsp;no-display :<br>
+<a href="#" class="sendbutton" onClick="document.getElementById('word').value += '<style>#no-display_text{width:110px;height:110px;border:thin solid black;overflow-y:no-display;}</style><div id=\'no-display_text\'><p>這是no-display測試~~~~這是no-display測試~~~~這是no-display測試~~~~這是no-display測試~~~~這是no-display測試~~~~這是no-display測試~~~~這是no-display測試~~~~這是no-display測試~~~~</p></div>'">增加到練習器</a><br>
+&nbsp;&nbsp;&nbsp;no-content :<br>
+<a href="#" class="sendbutton" onClick="send_to_ed( '<style>#no-content_text{width:110px;height:110px;border:thin solid black;overflow-y:no-content;}</style><div id=\'no-content_text\'><p>這是no-content測試~~~~這是no-content測試~~~~這是no-content測試~~~~這是no-content測試~~~~這是no-content測試~~~~這是no-content測試~~~~這是no-content測試~~~~這是no-content測試~~~~</p></div>')">增加到練習器</a><br>

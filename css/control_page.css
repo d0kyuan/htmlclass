@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#left_bar{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    background-color:rgba(77, 255, 77,0.7);
+    text-align: right;
+    padding-top: 10%;
+}
+
+.dm_word{
+    display:table;
+    margin:0 auto;
+    margin-top: 20%;
+    cursor:default;
+}
+.open_page_btn{
+    display: table;
+    margin:0 auto;
+    cursor: pointer;
+    margin-top: 20%;
+    color:black;
+}
+.open_page_btn:hover{
+    color:red;
+    transition: color 0.7s ease;
+
+}
+
+.friend_list{
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#252525');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#252525')";
+	background: #fe9123;
+	min-width: 160px;
+	color: #808080;
+	display: block;
+	font-family: 'Lucida Console';
+	font-size: 18px;
+	line-height: 54px;
+	padding: 0 25px;
+	text-decoration: none;
+	color:white;
+	width:40%;
+	margin:0 auto;
+	padding-top:1em;
+	padding-bottom:1em;
+	margin-bottom:1px;
+	margin-top:1px;
+	overflow:hidden;
+    margin-top: 1%;
+     box-shadow:4px 4px 3px rgba(40%,40%,40%,0.5);
+    cursor: default;
+}
+
+.friend_name_area{
+    float: left;
+    overflow: hidden;
+
+    width: 40%;
+}
+.friend_name_area P{
+cursor: default;
+
+}
+.accept_deny_btn_area{
+
+     float: right;
+    overflow: hidden;
+    width: 40%;
+}
+
+
+.friend_name_title{
+
+    float: left;
+    width: 30%;
+}
+.friend_name{
+
+    float: left;
+    width: 60%;
+}
+.accept_deny_btn{
+    cursor: pointer;
+    margin-right: 5%;
+    width: 30%;
+}
+.accept_deny_btn:hover{
+    color:red;
+}
+
+
+
+
+
+
+.like_page_list{
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#252525');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#252525')";
+	background: #fe9123;
+	min-width: 160px;
+	color: #808080;
+	display: block;
+	font-family: 'Lucida Console';
+	font-size: 18px;
+	line-height: 54px;
+	padding: 0 25px;
+	text-decoration: none;
+	color:white;
+	width:40%;
+	margin:0 auto;
+	padding-top:1em;
+	padding-bottom:1em;
+	margin-bottom:1px;
+	margin-top:1px;
+	overflow:hidden;
+    margin-top: 1%;
+     box-shadow:4px 4px 3px rgba(40%,40%,40%,0.5);
+    cursor: default;
+}
+
+
+.like_page_area{
+        float:left;
+	overflow:hidden;
+    cursor: default;
+    width: 70%;
+}
+#like_page_name_title{
+    display: block;
+    float:left;
+	overflow:hidden;
+    cursor: default;
+    width:20%;
+}
+
+#like_page_name{
+      display: block;
+    float:left;
+	overflow:hidden;
+    cursor: default;
+    width:20%;
+}
+#creater_name_title{
+    display: block;
+    float:left;
+	overflow:hidden;
+    cursor: default;
+    width:20%;
+}
+
+#like_page_creater_name{
+    display: block;
+    float:left;
+	overflow:hidden;
+    cursor: default;
+    width:20%;
+}
+.open_remove_like_page_btn_area{
+    float:left;
+	overflow:hidden;
+    cursor: default;
+    width: 30%;
+}
+
+.open_remove_like_page_btn{
+    display: block;
+    float:left;
+	overflow:hidden;
+    cursor: pointer;   
+    width: :35%;
+    margin-right: 15%;
+}
+
+.open_remove_like_page_btn:hover{
+    color:red;
+    
+}
+
+
+
+
+
+
+
+
+
+

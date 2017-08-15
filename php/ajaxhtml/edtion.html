@@ -1,0 +1,70 @@
+<div id="centerL" class="resetcenterL">
+    <div id="L_move_bar" class="L_bar_top">
+        <p id="L_co_btn" class="op_btn" onclick="L_open_move()">開啟移動</p>
+        <p id="L_sl_btn" class="sl_btn"onclick="getsmall(1)"></p>
+    </div>
+    <div id="cls_L_btn">
+    </div>
+    <div class="jqResize"><!--拖曳的可作用區域--></div>
+</div>
+
+<div id="centerRL" class="resetcenterRL">
+    <div id="RL_move_bar" class="RL_bar_top">
+            <p id="RL_co_btn" class="op_btn" onclick="RL_open_move()">開啟移動</p>
+            <p id="RL_sl_btn" class="sl_btn"onclick="getsmall(2)"></p>
+            <div id="centerRL_title">
+                <p>標題</p>
+            </div>
+    </div>
+
+    <div id="centerRL_word">
+        <p>請先點擊上方按鈕選擇語言種類</p>
+        <p>再點擊左方按鈕觀看教學</p>
+    </div>
+    <div class="jqResize"><!--拖曳的可作用區域--></div>
+</div>
+
+<div id="centerRR" class="resetcenterRR">
+    <div id="ed_move_bar"class="ed_bar_top">
+        <p id="ed_op_btn" class="op_btn" onclick="ed_open_move()">開啟移動</p>
+        <p id="ed_sl_btn" class="sl_btn"onclick="getsmall(3)"></p>
+    </div>
+    <div id="editor">
+        <textarea id="codeinput" onblur="validate()" onkeypress="pre_box()"></textarea>
+    </div>
+    <div id="editor_btn">
+        <a href="#inline_content" class="inline addbutton"  onClick="pview()">預覽</a>
+        <a href="#" class="addbutton"  onClick="clear_text()">清除</a>
+        <a href="#" class="addbutton" onClick="send()">送出</a>
+        <div id="upload_file">
+            <fieldset>
+            <input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
+
+            <div id="upload_area">
+                <div id="fileselect" name="fileselect[]" multiple="multiple" ></div>
+                <div id="filedrag">拉至檔案入內以開啟</div>
+            </div>
+            </fieldset>
+        </div>
+    </div>
+    <div class="jqResize"><!--拖曳的可作用區域--></div>
+</div>
+<div id="pre_box" >
+    <div id="pre_move_bar" class="jqHandle jqDrag ed_bar_top">
+        <a href="#"id="pre_co_btn" style="display:none;width:35px;position:absolute;top:0px;left:0%;" onclick="pre_remove_move()">還原</a>
+        <a href="#"id="pre_lk_btn" style="display:none;width:35px;position:absolute;top:0px;left:6%;" onclick="pre_lock_move()">鎖定</a>
+        <a href="#center"id="ed_sl_btn" style="width:20px;position:absolute;top:10px;right:2%;border-bottom:5px solid black" onclick="getsmall(4)"></a>
+
+    </div>
+    <div id="pre_move_bar1"class="ed_bar_top">
+        <a href="#"id="pre_op_btn" style="display:block;width:65px;position:absolute;top:5px;" onclick="pre_open_move()">開啟移動</a>
+        <a href="#center"id="pre_sl_btn1" style="width:20px;position:absolute;top:10px;right:2%;border-bottom:5px solid black" onclick="getsmall(4)"></a>
+
+    </div>
+    <div id="pre_box_show"></div>
+</div>
+<div id="small_box_area">
+</div>
+<div style="clear:both">
+</div>
+

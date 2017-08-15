@@ -1,0 +1,1 @@
+&lt;caption&gt; 元素定義表格標題。<br><br>&lt;caption&gt; 標籤必須緊隨&lt;table&gt;標籤之後。<br><br>您只能對每個表格定義一個標題。<br><br><a href="#editor" class="sendbutton" onClick="send_to_ed('<table border=\'1\'><caption>標題</caption><tr><th>內容</th><th>內容</th></tr><tr><td>內容</td><td>內容</td></tr></table>')">增加到練習器</a>	

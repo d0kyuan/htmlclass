@@ -1,0 +1,1 @@
+&lt;button &gt; 標籤定義一個按鈕。<br><br>在 button 元素內部，您可以放置內容，比如文本或圖像。這是該元素與使用 input 元素創建的按鈕之間的不同之處。<br><br>&lt;button &gt; 控件 與 &lt;input type="button" &gt; 相比，提供了更為強大的功能和更豐富的內容。<br><br> &lt;button &gt; 與 &lt;/button &gt; 標籤之間的所有內容都是按鈕的內容，其中包括任何可接受的正文內容，比如文本或多媒體內容。<br><br><a href="#editor" class="sendbutton" onClick="send_to_ed('<button type=\'button\'>這是一個按鈕</button>')">增加到練習器</a>	

@@ -1,0 +1,1 @@
+&lt;li&gt; 一個用來定義列表項目的標籤。<br><br>&lt;li&gt; 標籤可用於有序列表(&lt;ol&gt;)和無序列表(&lt;ul&gt;) <br><br><a href="#editor" class="sendbutton" onClick="send_to_ed('\<ol><li>第一個</li><li>第二個</li><li>第三個</li></ol>\</p>')">增加到練習器</a>	

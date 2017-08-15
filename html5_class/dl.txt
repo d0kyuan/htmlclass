@@ -1,0 +1,1 @@
+&lt;dl&gt; 標籤定義了定義列表（definition list）。<br><br>&lt;dl&gt; 標籤用於結合 &lt;dt&gt; 和 &lt;dd&gt; 。<br><br><a href="#editor" class="sendbutton" onClick="send_to_ed( '<dl><dt>項目一</dt><dd>內容一</dd><dt>項目二</dt><dd>內容二</dd></dl>')">增加到練習器</a>	

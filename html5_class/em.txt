@@ -1,0 +1,1 @@
+&lt;em&gt;此標籤用於強調語氣之用。用法:&lt;em&gt;Hello World!&lt;/em&gt; &lt;br&gt;&lt;br&gt;<a href="#editor" class="sendbutton" onClick="send_to_ed('<em>hello world!</em>')">增加到練習器</a>	

@@ -1,0 +1,1 @@
+&lt;dialog&gt; 用於對話框或是視窗。<br><br>用法:&lt;dialog open&gt;這是一個開啟中的視窗&lt;/dialog&gt;<br><br><a href="#editor" class="sendbutton" onClick="send_to_ed( '<dialog open>這是一個開啟中的視窗</dialog>')">增加到練習器</a>

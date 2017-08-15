@@ -1,0 +1,1 @@
+&lt;blockquote &gt; 標籤定義塊引用。<br><br>&lt;blockquote &gt; 與 &lt;/blockquote &gt; <br><br>之間的所有文本都會從常規文本中分離出來，經常會在左、右兩邊進行縮進（增加外邊距），而且有時會使用斜體。<br><br>#注意 此標籤請使用送出才看得出效果<br><br><a href="#editor" class="sendbutton" onClick="send_to_ed('<p>所有文本都會從常規文本中分離出來，<blockquote>經常會在左、右兩邊進行縮進（增加外邊距）</blockquote>，而且有時會使用斜體。</p>')">增加到練習器</a>	

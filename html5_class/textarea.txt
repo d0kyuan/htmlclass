@@ -1,0 +1,1 @@
+&lt;textarea&gt; 標籤定義多行的文本輸入控件。<br><br><a href="#editor" class="sendbutton" onClick="send_to_ed( '<textarea rows=\'3\' cols=\'20\'>Hello World!</textarea>')">增加到練習器</a>	

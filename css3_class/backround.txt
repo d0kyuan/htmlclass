@@ -1,0 +1,10 @@
+﻿可以設定背景的顏色
+<style>
+body {
+    background-color: lightblue;
+}
+</style>
+
+<h1>Hello World!</h1>
+
+<p>This page has a background color!</p>
